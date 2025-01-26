@@ -1,7 +1,12 @@
 import './App.css'
+import Register from './Register'
 
 function App() {
-  return(<>hi</>)
+  return(
+  <main className="App">
+    <Register />
+  </main>
+  )
 }
 
 export default App
